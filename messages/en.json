@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "title": "Hearty - Cross-Generational Voice Communication Platform",
+    "description": "A warm communication platform where all generations from teens to 80s+ can anonymously share voice messages as mentors, peers, and friends. Features senior-friendly design for everyone.",
+    "keywords": "intergenerational communication, voice messages, mentor, peer, friend, anonymous chat, senior-friendly, warm conversation, generational empathy"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "how": "How It Works",
+    "download": "Download",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "language": "Language"
+  },
+  "brand": {
+    "name": "Hearty",
+    "tagline": "Voice of the Heart",
+    "slogan": "Connecting Generations with Warm Technology"
+  },
+  "hero": {
+    "title": "Warm Voices\nAcross Generations",
+    "subtitle": "From teens to 80s+, all generations connect anonymously through voice messages\nas mentors, peers, and friends in this heartwarming communication space",
+    "cta": "Get Started Now",
+    "appStore": "Download on App Store",
+    "googlePlay": "Get it on Google Play",
+    "webVersion": "Try Web Version"
+  },
+  "features": {
+    "title": "Hearty's Unique Communication Experience",
+    "subtitle": "An intergenerational exchange platform for all ages",
+    "items": [
+      {
+        "title": "Cross-Generational Mentoring",
+        "description": "Where seniors' life wisdom meets young people's passion for mutual learning and growth"
+      },
+      {
+        "title": "Anonymous Voice Communication",
+        "description": "Share genuine, warm hearts through voice only in a comfortable anonymous environment"
+      },
+      {
+        "title": "Interest-Based Matching",
+        "description": "Natural connections through shared interests: health, hobbies, music, family, life wisdom, and learning"
+      },
+      {
+        "title": "Senior-Friendly Design",
+        "description": "Large fonts, simple controls, and intuitive interface for comfortable use by all ages"
+      },
+      {
+        "title": "Diverse Communication Styles",
+        "description": "Listener, Sharer, Balanced, Questioner - communicate comfortably in your own style"
+      },
+      {
+        "title": "Safe Communication Environment",
+        "description": "Systematic management for privacy protection and healthy conversation culture"
+      }
+    ]
+  },
+  "generations": {
+    "title": "All Generations Together on Hearty",
+    "subtitle": "Warm connections celebrating each generation's unique character",
+    "items": [
+      {
+        "ageGroup": "Senior Mentors (60+)",
+        "role": "🌳 Wisdom Sharers",
+        "description": "Share rich life experiences and wisdom while offering warm advice to younger generations",
+        "features": [
+          "Life Experience Sharing",
+          "Warm Advice",
+          "Cultural Heritage",
+          "Life Wisdom"
+        ]
+      },
+      {
+        "ageGroup": "Middle-Age Peers (40-50s)",
+        "role": "🤝 Reliable Companions",
+        "description": "Encourage each other and become life companions with peers facing similar challenges",
+        "features": [
+          "Parenting Experience",
+          "Career Advice",
+          "Health Information",
+          "Hobby Companionship"
+        ]
+      },
+      {
+        "ageGroup": "Young Friends (20-30s)",
+        "role": "🌱 Vibrant Energy Carriers",
+        "description": "Share fresh trends and vibrant energy while building generational connections with seniors",
+        "features": [
+          "Latest Trends",
+          "Tech Guidance",
+          "New Culture",
+          "Energetic Spirit"
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Start Warm Communication in 3 Simple Steps",
+    "subtitle": "Intuitive usage that anyone can easily participate in",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Set Up Profile",
+        "description": "Create your unique profile by selecting age group, interests, and communication style"
+      },
+      {
+        "step": "2",
+        "title": "Create Voice Message",
+        "description": "Leave a warm voice message under 1 minute on topics that interest you"
+      },
+      {
+        "step": "3",
+        "title": "Cross-Generational Communication",
+        "description": "Listen to messages from other generations and start meaningful exchanges by responding"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Heartwarming User Reviews",
+    "subtitle": "Special connections made on Hearty",
+    "items": [
+      {
+        "age": "70s",
+        "role": "Senior Mentor",
+        "message": "Talking with young people makes me feel young again. It's rewarding that my experiences can help."
+      },
+      {
+        "age": "40s",
+        "role": "Middle-Age Peer",
+        "message": "When struggling with parenting and work, talking with people who have similar concerns brings comfort."
+      },
+      {
+        "age": "20s",
+        "role": "Young Friend",
+        "message": "Listening to life advice from elders makes me reflect on my own life. It's truly precious time."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Warm Communication Right Now",
+    "subtitle": "There are people waiting for your voice",
+    "button": "Start for Free",
+    "note": "Try instantly without registration"
+  },
+  "footer": {
+    "description": "Hearty is a cross-generational voice communication platform. A special space where all ages anonymously exchange voice messages and connect as mentors, peers, and friends.",
+    "tagline": "Warm communication for all generations",
+    "links": {
+      "service": "Service",
+      "home": "Home",
+      "features": "Features",
+      "download": "App Download",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "company": "Company",
+      "about": "About Us",
+      "contact": "Contact",
+      "blog": "Blog",
+      "legal": "Legal Notice"
+    },
+    "copyright": "© 2025 Hearty. All rights reserved.",
+    "motto": "Warm technology connecting generations",
+    "contactInfo": "Contact: colleksql3@gmail.com",
+    "status": "Voice communication platform for all ages"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "download": "Download",
+    "comingSoon": "Coming Soon",
+    "free": "Free",
+    "anonymous": "Anonymous",
+    "safe": "Safe",
+    "easy": "Easy to Use",
+    "imageAlt": "Hearty Image"
+  }
+}

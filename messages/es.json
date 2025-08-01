@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "title": "Hearty - Plataforma de Comunicación por Voz Intergeneracional",
+    "description": "Una plataforma de comunicación cálida donde todas las generaciones, desde adolescentes hasta 80+, pueden compartir mensajes de voz anónimos como mentores, compañeros y amigos. Con diseño amigable para personas mayores.",
+    "keywords": "comunicación intergeneracional, mensajes de voz, mentor, compañero, amigo, chat anónimo, amigable para mayores, conversación cálida, empatía generacional"
+  },
+  "nav": {
+    "home": "Inicio",
+    "features": "Características",
+    "how": "Cómo Funciona",
+    "download": "Descargar",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "language": "Idioma"
+  },
+  "brand": {
+    "name": "Hearty",
+    "tagline": "La Voz del Corazón",
+    "slogan": "Conectando Generaciones con Tecnología Cálida"
+  },
+  "hero": {
+    "title": "Voces Cálidas\nA Través de Generaciones",
+    "subtitle": "Desde adolescentes hasta 80+, todas las generaciones se conectan anónimamente a través de mensajes de voz\ncomo mentores, compañeros y amigos en este espacio de comunicación conmovedor",
+    "cta": "Comenzar Ahora",
+    "appStore": "Descargar en App Store",
+    "googlePlay": "Obtener en Google Play",
+    "webVersion": "Probar Versión Web"
+  },
+  "features": {
+    "title": "La Experiencia de Comunicación Única de Hearty",
+    "subtitle": "Una plataforma de intercambio intergeneracional para todas las edades",
+    "items": [
+      {
+        "title": "Mentoría Intergeneracional",
+        "description": "Donde la sabiduría de vida de los mayores se encuentra con la pasión de los jóvenes para el aprendizaje mutuo y crecimiento"
+      },
+      {
+        "title": "Comunicación de Voz Anónima",
+        "description": "Comparte corazones genuinos y cálidos solo a través de la voz en un ambiente anónimo cómodo"
+      },
+      {
+        "title": "Conexión Basada en Intereses",
+        "description": "Conexiones naturales a través de intereses compartidos: salud, pasatiempos, música, familia, sabiduría de vida y aprendizaje"
+      },
+      {
+        "title": "Diseño Amigable para Personas Mayores",
+        "description": "Fuentes grandes, controles simples e interfaz intuitiva para uso cómodo por todas las edades"
+      },
+      {
+        "title": "Estilos de Comunicación Diversos",
+        "description": "Oyente, Compartidor, Equilibrado, Preguntador - comunícate cómodamente en tu propio estilo"
+      },
+      {
+        "title": "Ambiente de Comunicación Seguro",
+        "description": "Gestión sistemática para protección de privacidad y cultura de conversación saludable"
+      }
+    ]
+  },
+  "generations": {
+    "title": "Todas las Generaciones Juntas en Hearty",
+    "subtitle": "Conexiones cálidas celebrando el carácter único de cada generación",
+    "items": [
+      {
+        "ageGroup": "Mentores Mayores (60+)",
+        "role": "🌳 Compartidores de Sabiduría",
+        "description": "Comparte ricas experiencias de vida y sabiduría mientras ofreces consejos cálidos a las generaciones más jóvenes",
+        "features": [
+          "Compartir Experiencia de Vida",
+          "Consejos Cálidos",
+          "Patrimonio Cultural",
+          "Sabiduría de Vida"
+        ]
+      },
+      {
+        "ageGroup": "Compañeros de Mediana Edad (40-50s)",
+        "role": "🤝 Compañeros Confiables",
+        "description": "Anímense mutuamente y conviértanse en compañeros de vida con pares que enfrentan desafíos similares",
+        "features": [
+          "Experiencia de Crianza",
+          "Consejos de Carrera",
+          "Información de Salud",
+          "Compañía de Pasatiempos"
+        ]
+      },
+      {
+        "ageGroup": "Amigos Jóvenes (20-30s)",
+        "role": "🌱 Portadores de Energía Vibrante",
+        "description": "Comparte tendencias frescas y energía vibrante mientras construyes conexiones generacionales con personas mayores",
+        "features": [
+          "Últimas Tendencias",
+          "Guía Tecnológica",
+          "Nueva Cultura",
+          "Espíritu Energético"
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Inicia Comunicación Cálida en 3 Pasos Simples",
+    "subtitle": "Uso intuitivo en el que cualquiera puede participar fácilmente",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Configurar Perfil",
+        "description": "Crea tu perfil único seleccionando grupo de edad, intereses y estilo de comunicación"
+      },
+      {
+        "step": "2",
+        "title": "Crear Mensaje de Voz",
+        "description": "Deja un mensaje de voz cálido de menos de 1 minuto sobre temas que te interesen"
+      },
+      {
+        "step": "3",
+        "title": "Comunicación Intergeneracional",
+        "description": "Escucha mensajes de otras generaciones e inicia intercambios significativos respondiendo"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Reseñas Conmovedoras de Usuarios",
+    "subtitle": "Conexiones especiales hechas en Hearty",
+    "items": [
+      {
+        "age": "70s",
+        "role": "Mentor Mayor",
+        "message": "Hablar con gente joven me hace sentir joven otra vez. Es gratificante que mis experiencias puedan ayudar."
+      },
+      {
+        "age": "40s",
+        "role": "Compañero de Mediana Edad",
+        "message": "Cuando lucho con la crianza y el trabajo, hablar con personas que tienen preocupaciones similares trae consuelo."
+      },
+      {
+        "age": "20s",
+        "role": "Amigo Joven",
+        "message": "Escuchar consejos de vida de los mayores me hace reflexionar sobre mi propia vida. Es realmente tiempo precioso."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Comienza Comunicación Cálida Ahora Mismo",
+    "subtitle": "Hay personas esperando tu voz",
+    "button": "Comenzar Gratis",
+    "note": "Prueba instantáneamente sin registro"
+  },
+  "footer": {
+    "description": "Hearty es una plataforma de comunicación por voz intergeneracional. Un espacio especial donde todas las edades intercambian mensajes de voz anónimos y se conectan como mentores, compañeros y amigos.",
+    "tagline": "Comunicación cálida para todas las generaciones",
+    "links": {
+      "service": "Servicio",
+      "home": "Inicio",
+      "features": "Características",
+      "download": "Descarga de App",
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad",
+      "company": "Empresa",
+      "about": "Acerca de Nosotros",
+      "contact": "Contacto",
+      "blog": "Blog",
+      "legal": "Aviso Legal"
+    },
+    "copyright": "© 2025 Hearty. Todos los derechos reservados.",
+    "motto": "Tecnología cálida conectando generaciones",
+    "contactInfo": "Contacto: colleksql3@gmail.com",
+    "status": "Plataforma de comunicación por voz para todas las edades"
+  },
+  "common": {
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "download": "Descargar",
+    "comingSoon": "Próximamente",
+    "free": "Gratis",
+    "anonymous": "Anónimo",
+    "safe": "Seguro",
+    "easy": "Fácil de Usar",
+    "imageAlt": "Imagen de Hearty"
+  }
+}

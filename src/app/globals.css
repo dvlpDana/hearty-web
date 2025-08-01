@@ -1,26 +1,268 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* ============ Base Theme Variables ============ */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-pretendard);
+  --font-mono: var(--font-mono);
+
+  /* ============ Hearty Primary Colors (Warm Orange) ============ */
+  --color-primary-50: #fff3e0; /* 크림 베이지 */
+  --color-primary-100: #ffe0b2; /* 연한 피치 */
+  --color-primary-200: #ffcc80; /* 밝은 피치 */
+  --color-primary-300: #ffb74d; /* 소프트 오렌지 */
+  --color-primary-400: #ffa726; /* 미디엄 오렌지 */
+  --color-primary-500: #ff9800; /* 메인 오렌지 ⭐ */
+  --color-primary-600: #fb8c00; /* 진한 오렌지 */
+  --color-primary-700: #f57c00; /* 더 진한 오렌지 */
+  --color-primary-800: #ef6c00; /* 다크 오렌지 */
+  --color-primary-900: #e65100; /* 가장 진한 오렌지 */
+
+  /* ============ Hearty Secondary Colors (Soft Pink) ============ */
+  --color-secondary-50: #fce4ec; /* 아주 연한 핑크 */
+  --color-secondary-100: #f8bbd9; /* 연한 핑크 */
+  --color-secondary-200: #f48fb1; /* 밝은 핑크 */
+  --color-secondary-300: #f06292; /* 소프트 핑크 */
+  --color-secondary-400: #ec407a; /* 미디엄 핑크 */
+  --color-secondary-500: #e91e63; /* 메인 핑크 ⭐ */
+  --color-secondary-600: #d81b60; /* 진한 핑크 */
+  --color-secondary-700: #c2185b; /* 더 진한 핑크 */
+  --color-secondary-800: #ad1457; /* 다크 핑크 */
+  --color-secondary-900: #880e4f; /* 가장 진한 핑크 */
+
+  /* ============ Warm Gray Scale ============ */
+  --color-gray-0: #ffffff; /* 순백 */
+  --color-gray-50: #fafafa; /* 오프 화이트 */
+  --color-gray-100: #f7f7f7; /* 아주 연한 회색 */
+  --color-gray-200: #f0f0f0; /* 연한 회색 */
+  --color-gray-300: #e8e8e8; /* 밝은 회색 */
+  --color-gray-400: #d0d0d0; /* 미디엄 라이트 회색 */
+  --color-gray-500: #a8a8a8; /* 미디엄 회색 */
+  --color-gray-600: #808080; /* 다크 그레이 */
+  --color-gray-700: #666666; /* 더 다크 그레이 */
+  --color-gray-800: #4a4a4a; /* 아주 다크 그레이 */
+  --color-gray-900: #2d2d2d; /* 거의 블랙 */
+  --color-gray-1000: #000000; /* 순흑 */
+
+  /* ============ Semantic Colors ============ */
+  --color-success-50: #e8f5e8;
+  --color-success-500: #4caf50;
+  --color-success-700: #388e3c;
+
+  --color-warning-50: #fff3e0;
+  --color-warning-500: #ff9800;
+  --color-warning-700: #f57c00;
+
+  --color-error-50: #ffebee;
+  --color-error-500: #f44336;
+  --color-error-700: #d32f2f;
+
+  --color-info-50: #e3f2fd;
+  --color-info-500: #2196f3;
+  --color-info-700: #1976d2;
+
+  /* ============ Special Hearty Colors ============ */
+  --color-background-warm: #fffbfa; /* Warm White */
+  --color-shadow-warm: rgba(255, 152, 0, 0.1); /* Orange Shadow */
+  --color-disabled: #a4b3cc;
+  --color-splash: #ff8a65; /* 따뜻한 스플래시 */
+
+  /* ============ Theme Mappings ============ */
+  --color-primary: var(--color-primary-500);
+  --color-primary-foreground: var(--color-gray-0);
+  --color-secondary: var(--color-secondary-500);
+  --color-secondary-foreground: var(--color-gray-0);
+  --color-accent: var(--color-primary-100);
+  --color-accent-foreground: var(--color-primary-800);
+  --color-muted: var(--color-gray-100);
+  --color-muted-foreground: var(--color-gray-700);
+  --color-destructive: var(--color-error-500);
+  --color-border: var(--color-gray-300);
+  --color-input: var(--color-gray-200);
+  --color-ring: var(--color-primary-500);
+  --color-card: var(--color-gray-0);
+  --color-card-foreground: var(--color-gray-900);
+  --color-popover: var(--color-gray-0);
+  --color-popover-foreground: var(--color-gray-900);
+
+  /* ============ Radius Values ============ */
+  --radius-sm: 8px; /* 작은 radius */
+  --radius-md: 12px; /* 중간 radius */
+  --radius-lg: 16px; /* 큰 radius */
+  --radius-xl: 24px; /* 아주 큰 radius */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  /* ============ Light Theme (Default) ============ */
+  --radius: 0.75rem; /* 12px - 시니어 친화적 둥근 모서리 */
+
+  /* Background & Foreground */
+  --background: var(--color-background-warm); /* 따뜻한 화이트 */
+  --foreground: var(--color-gray-900); /* 진한 회색 텍스트 */
+
+  /* Card Components */
+  --card: var(--color-gray-0);
+  --card-foreground: var(--color-gray-900);
+
+  /* Popover Components */
+  --popover: var(--color-gray-0);
+  --popover-foreground: var(--color-gray-900);
+
+  /* Primary Brand Colors */
+  --primary: var(--color-primary-500); /* 메인 오렌지 */
+  --primary-foreground: var(--color-gray-0); /* 화이트 텍스트 */
+
+  /* Secondary Colors */
+  --secondary: var(--color-gray-100); /* 연한 회색 배경 */
+  --secondary-foreground: var(--color-gray-800); /* 진한 텍스트 */
+
+  /* Muted Colors */
+  --muted: var(--color-gray-100); /* 연한 회색 */
+  --muted-foreground: var(--color-gray-600); /* 중간 회색 텍스트 */
+
+  /* Accent Colors */
+  --accent: var(--color-primary-50); /* 아주 연한 오렌지 */
+  --accent-foreground: var(--color-primary-800); /* 진한 오렌지 텍스트 */
+
+  /* Destructive/Error Colors */
+  --destructive: var(--color-error-500);
+
+  /* Border & Input */
+  --border: var(--color-gray-300); /* 밝은 회색 보더 */
+  --input: var(--color-gray-200); /* 입력 필드 배경 */
+  --ring: var(--color-primary-500); /* 포커스 링 */
+
+  /* Chart Colors (데이터 시각화용) */
+  --chart-1: var(--color-primary-500); /* 메인 오렌지 */
+  --chart-2: var(--color-secondary-300); /* 소프트 핑크 */
+  --chart-3: var(--color-info-500); /* 블루 */
+  --chart-4: var(--color-success-500); /* 그린 */
+  --chart-5: var(--color-warning-500); /* 옐로우 */
+
+  /* Font Family */
+  --font-pretendard: 'Pretendard Variable', 'Pretendard', 'Apple SD Gothic Neo',
+    'Malgun Gothic', -apple-system, sans-serif;
+  --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Courier New',
+    monospace;
+}
+
+.dark {
+  /* ============ Dark Theme ============ */
+  --background: var(--color-gray-900); /* 진한 회색 배경 */
+  --foreground: var(--color-gray-0); /* 화이트 텍스트 */
+
+  /* Card Components */
+  --card: var(--color-gray-800);
+  --card-foreground: var(--color-gray-100);
+
+  /* Popover Components */
+  --popover: var(--color-gray-800);
+  --popover-foreground: var(--color-gray-100);
+
+  /* Primary Brand Colors (다크에서는 더 밝게) */
+  --primary: var(--color-primary-400); /* 밝은 오렌지 */
+  --primary-foreground: var(--color-gray-900); /* 진한 텍스트 */
+
+  /* Secondary Colors */
+  --secondary: var(--color-gray-800);
+  --secondary-foreground: var(--color-gray-100);
+
+  /* Muted Colors */
+  --muted: var(--color-gray-700);
+  --muted-foreground: var(--color-gray-400);
+
+  /* Accent Colors */
+  --accent: var(--color-primary-800);
+  --accent-foreground: var(--color-gray-100);
+
+  /* Destructive/Error Colors */
+  --destructive: var(--color-error-400); /* 다크에서는 더 밝게 */
+
+  /* Border & Input */
+  --border: var(--color-gray-700); /* 어두운 보더 */
+  --input: var(--color-gray-800); /* 어두운 입력 필드 */
+  --ring: var(--color-primary-400); /* 밝은 포커스 링 */
+
+  /* Chart Colors (다크 모드 최적화) */
+  --chart-1: var(--color-primary-400);
+  --chart-2: var(--color-secondary-300);
+  --chart-3: var(--color-info-400);
+  --chart-4: var(--color-success-400);
+  --chart-5: var(--color-warning-400);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground;
+    /* 시니어 친화적 폰트 설정 */
+    font-family: var(--font-pretendard);
+    font-size: 16px; /* 최소 권장 크기 */
+    line-height: 1.6; /* 넉넉한 행간 */
+    letter-spacing: 0.01em; /* 살짝 넓은 자간 */
+  }
+
+  /* ============ 시니어 친화적 기본 스타일 ============ */
+
+  /* 고대비 텍스트 설정 */
+  .text-high-contrast {
+    color: var(--color-gray-1000);
+    font-weight: 500;
+  }
+
+  /* 대형 텍스트 */
+  .text-large-print {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 500;
+  }
+
+  /* 간격 확대 텍스트 */
+  .text-spacious {
+    line-height: 2;
+    letter-spacing: 0.05em;
+  }
+
+  /* 버튼 기본 스타일 (시니어 친화적) */
+  .btn-hearty {
+    min-height: 48px; /* 터치하기 쉬운 크기 */
+    padding: 12px 24px; /* 넉넉한 패딩 */
+    border-radius: 12px; /* 부드러운 모서리 */
+    font-size: 16px; /* 읽기 쉬운 크기 */
+    font-weight: 600; /* 명확한 굵기 */
+    letter-spacing: 0.01em;
+    transition: all 0.2s ease;
+  }
+
+  /* 카드 기본 스타일 */
+  .card-hearty {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px; /* 따뜻한 느낌의 둥근 모서리 */
+    box-shadow: 0 2px 8px var(--color-shadow-warm); /* 따뜻한 그림자 */
+    padding: 24px; /* 넉넉한 내부 여백 */
+  }
+
+  /* 입력 필드 기본 스타일 */
+  .input-hearty {
+    min-height: 48px; /* 터치하기 쉬운 높이 */
+    padding: 12px 16px; /* 넉넉한 패딩 */
+    border-radius: 12px; /* 부드러운 모서리 */
+    border: 2px solid var(--border);
+    background: var(--input);
+    font-size: 16px; /* iOS 확대 방지 */
+    transition: border-color 0.2s ease;
+  }
+
+  .input-hearty:focus {
+    outline: none;
+    border-color: var(--ring);
+    box-shadow: 0 0 0 3px var(--color-primary-100); /* 접근성 포커스 */
+  }
 }
