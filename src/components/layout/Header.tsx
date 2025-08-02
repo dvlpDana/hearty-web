@@ -13,12 +13,6 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
 } from '@/components/ui/navigation-menu';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 
@@ -73,25 +67,6 @@ export default function Header() {
 
           {/* 우측 액션 영역 */}
           <div className="flex items-center space-x-2 md:space-x-4">
-            {/* 언어 선택 드롭다운 */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="hidden md:flex items-center space-x-2 text-warm-gray-700 hover:text-warm-orange-600 hover:bg-warm-orange-50"
-                >
-                  <Globe className="h-4 w-4" />
-                  <span className="text-sm">한국어</span>
-                  <ChevronDown className="h-3 w-3" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-32">
-                <DropdownMenuItem className="text-sm">한국어</DropdownMenuItem>
-                <DropdownMenuItem className="text-sm">English</DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-
             {/* 모바일 메뉴 */}
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
@@ -101,7 +76,7 @@ export default function Header() {
                   className="lg:hidden p-2 text-warm-gray-700 hover:text-warm-orange-600 hover:bg-warm-orange-50"
                 >
                   <Menu className="h-5 w-5" />
-                  <span className="sr-only">메뉴 열기</span>
+                  <span className="sr-only">{t('menu')}</span>
                 </Button>
               </SheetTrigger>
 
@@ -151,20 +126,6 @@ export default function Header() {
                       ))}
                     </ul>
                   </nav>
-
-                  {/* 모바일 하단 액션 */}
-                  <div className="pt-6 border-t border-warm-gray-100 space-y-4">
-                    {/* 언어 선택 */}
-                    <div className="flex items-center justify-between px-4 py-2">
-                      <div className="flex items-center space-x-2 text-warm-gray-600">
-                        <Globe className="h-4 w-4" />
-                        <span className="text-sm">언어</span>
-                      </div>
-                      <Button variant="outline" size="sm" className="text-sm">
-                        한국어
-                      </Button>
-                    </div>
-                  </div>
                 </div>
               </SheetContent>
             </Sheet>
