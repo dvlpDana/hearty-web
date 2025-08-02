@@ -24,6 +24,7 @@ export default function Header() {
     { href: '/', label: t('home') },
     { href: '/terms', label: t('terms') },
     { href: '/privacy', label: t('privacy') },
+    { href: '/contact', label: t('contact') }
   ];
 
   return (

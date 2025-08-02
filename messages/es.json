@@ -11,7 +11,7 @@
     "download": "Descargar",
     "terms": "Términos de Servicio",
     "privacy": "Política de Privacidad",
-    "language": "Idioma",
+    "contact": "Contacto",
     "menu": "Abrir Menú"
   },
   "brand": {
@@ -181,5 +181,175 @@
   },
   "privacy": {
     "title": "Política de Privacidad"
+  },
+  "deleteAccount": {
+    "meta": {
+      "title": "Guía de Eliminación de Cuenta - Hearty",
+      "description": "Aprende cómo eliminar tu cuenta de Hearty y consideraciones importantes"
+    },
+    "title": "Guía de Eliminación de Cuenta",
+    "subtitle": "Si deseas eliminar tu cuenta, por favor revisa cuidadosamente la información a continuación. Las cuentas y datos eliminados no pueden ser recuperados.",
+    "warning": {
+      "title": "⚠️ Aviso Importante",
+      "content": "La eliminación de cuenta es una acción irreversible. Asegúrate de revisar la información a continuación antes de proceder con la eliminación."
+    },
+    "howTo": {
+      "title": "Cómo Eliminar tu Cuenta",
+      "steps": {
+        "0": "Abre la aplicación Hearty e inicia sesión",
+        "1": "Navega al menú de Configuración",
+        "2": "Selecciona Gestión de Cuenta → Eliminar Cuenta",
+        "3": "Completa el proceso de confirmación de eliminación"
+      }
+    },
+    "contact": {
+      "title": "Solicitar Eliminación a través de Soporte",
+      "description": "Si tienes dificultades para eliminar a través de la aplicación, por favor contacta directamente a nuestro soporte al cliente.",
+      "button": "Contactar Soporte al Cliente"
+    },
+    "deletedData": {
+      "title": "Datos a ser Eliminados",
+      "items": {
+        "0": "Información de perfil (apodo, grupo de edad, intereses)",
+        "1": "Registros de mensajes de voz",
+        "2": "Historial de chat y conversaciones",
+        "3": "Lista de amigos y registros de conexión",
+        "4": "Historial de uso del servicio",
+        "5": "Configuraciones e información de preferencias"
+      }
+    },
+    "timeline": {
+      "title": "Cronología de Eliminación",
+      "immediate": "Suspensión inmediata del servicio",
+      "complete": "Eliminación completa",
+      "backup": "Eliminación de datos de respaldo",
+      "description": "El acceso al servicio será suspendido inmediatamente después de solicitar la eliminación de cuenta, y todos los datos personales serán completamente eliminados dentro de 7 días. Los datos del sistema de respaldo serán eliminados dentro de 30 días."
+    },
+    "legalRetention": {
+      "title": "Retención de Datos Legalmente Requerida",
+      "description": "De acuerdo con las leyes aplicables, algunos datos deben ser retenidos durante el período de retención legal:",
+      "items": {
+        "0": {
+          "title": "Registros de abuso del servicio (1 año)",
+          "description": "Registros para prevenir registro y uso fraudulento"
+        },
+        "1": {
+          "title": "Registros de manejo de quejas del consumidor (3 años)",
+          "description": "Registros de resolución de disputas bajo la Ley de Comercio Electrónico"
+        },
+        "2": {
+          "title": "Registros de log del sitio web (3 meses)",
+          "description": "Registros de acceso bajo la Ley de Protección de Secretos de Comunicaciones"
+        },
+        "3": {
+          "title": "Registros relacionados con pagos (5 años)",
+          "description": "Registros de transacciones bajo la Ley de Comercio Electrónico"
+        }
+      }
+    },
+    "irreversible": {
+      "title": "Consecuencias Irreversibles",
+      "description": "Una vez que tu cuenta sea eliminada, ocurrirán las siguientes consecuencias y no pueden ser deshechas:",
+      "consequences": {
+        "0": "Todos los datos personales y contenido serán eliminados permanentemente",
+        "1": "Los datos anteriores no pueden ser recuperados incluso si te registras nuevamente con la misma información",
+        "2": "Ningún dato puede ser restaurado por ningún medio después de la eliminación"
+      }
+    },
+    "footer": {
+      "help": "Si tienes alguna pregunta sobre la eliminación de cuenta, no dudes en contactarnos.",
+      "contact": "Soporte al Cliente: hearty.service.2025@gmail.com | Teléfono: +82-1588-0000"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Atención al Cliente - Hearty",
+      "description": "Centro de atención al cliente de Hearty. Contáctanos en cualquier momento si tienes preguntas o consultas."
+    },
+    "title": "Atención al Cliente",
+    "subtitle": "Contáctanos en cualquier momento si tienes preguntas o consultas. Te ayudaremos con un servicio amable y rápido.",
+    "quickContact": {
+      "title": "Contacto Rápido",
+      "email": {
+        "title": "Consulta por Email",
+        "response": "Respuesta en 24 horas"
+      },
+      "phone": {
+        "title": "Consulta Telefónica",
+        "hours": "Días laborables 09:00-18:00"
+      },
+      "kakao": {
+        "title": "Soporte KakaoTalk",
+        "description": "Soporte de chat en tiempo real"
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "description": "Encuentra soluciones rápidas a tus preguntas",
+        "button": "Ver FAQ"
+      }
+    },
+    "inquiryTypes": {
+      "title": "Guía de Tipos de Consulta",
+      "account": {
+        "title": "Relacionado con Cuenta",
+        "description": "Registro, inicio de sesión, eliminación de cuenta y otras consultas relacionadas con la cuenta",
+        "deleteAccount": "Guía de Eliminación de Cuenta",
+        "emailSupport": "Soporte por Email"
+      },
+      "technical": {
+        "title": "Soporte Técnico",
+        "description": "Uso de la aplicación, reportes de errores, consultas de funciones y otros problemas técnicos",
+        "contact": "Conectar con Soporte Técnico"
+      },
+      "privacy": {
+        "title": "Relacionado con Privacidad",
+        "description": "Procesamiento de datos personales, protección de datos, consultas de modificación de información",
+        "contact": "Oficial de Protección de Privacidad"
+      }
+    },
+    "responseTime": {
+      "title": "Tiempo Promedio de Respuesta",
+      "email": {
+        "title": "Email",
+        "time": "Dentro de 24 horas"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "time": "Conexión inmediata"
+      },
+      "kakao": {
+        "title": "KakaoTalk",
+        "time": "Tiempo real"
+      }
+    },
+    "companyInfo": {
+      "title": "Información de la Empresa",
+      "basic": {
+        "title": "Información Básica",
+        "name": "Nombre de la Empresa",
+        "business": "Número de Registro Comercial",
+        "ceo": "CEO"
+      },
+      "address": {
+        "title": "Dirección de la Empresa",
+        "detail": "Piso 7, Edificio 456, 123 Teheran-ro, Gangnam-gu, Seúl, Corea del Sur"
+      },
+      "privacy": {
+        "title": "Oficial de Protección de Privacidad",
+        "officer": "Oficial",
+        "email": "Email",
+        "phone": "Teléfono"
+      }
+    },
+    "businessHours": {
+      "title": "Horario de Atención",
+      "weekdays": "Días laborables",
+      "weekdaysTime": "09:00 - 18:00",
+      "saturday": "Sábado",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "Domingo",
+      "sundayTime": "Cerrado",
+      "note": "Estamos cerrados en días feriados. Para consultas urgentes, contáctanos por email y responderemos en orden."
+    }
   }
 }

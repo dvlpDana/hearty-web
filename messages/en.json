@@ -11,7 +11,7 @@
     "download": "Download",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy",
-    "language": "Language",
+    "contact": "Contact Us",
     "menu": "Open Menu"
   },
   "brand": {
@@ -181,5 +181,175 @@
   },
   "privacy": {
     "title": "Privacy Policy"
+  },
+  "deleteAccount": {
+    "meta": {
+      "title": "Account Deletion Guide - Hearty",
+      "description": "Learn how to delete your Hearty account and important considerations"
+    },
+    "title": "Account Deletion Guide",
+    "subtitle": "If you wish to delete your account, please carefully review the information below. Deleted accounts and data cannot be recovered.",
+    "warning": {
+      "title": "⚠️ Important Notice",
+      "content": "Account deletion is an irreversible action. Please make sure to review the information below before proceeding with deletion."
+    },
+    "howTo": {
+      "title": "How to Delete Your Account",
+      "steps": {
+        "0": "Open the Hearty app and log in",
+        "1": "Navigate to Settings menu",
+        "2": "Select Account Management → Delete Account",
+        "3": "Complete the deletion confirmation process"
+      }
+    },
+    "contact": {
+      "title": "Request Deletion via Support",
+      "description": "If you have difficulty deleting through the app, please contact our customer support directly.",
+      "button": "Contact Customer Support"
+    },
+    "deletedData": {
+      "title": "Data to be Deleted",
+      "items": {
+        "0": "Profile information (nickname, age group, interests)",
+        "1": "Voice message records",
+        "2": "Chat and conversation history",
+        "3": "Friend list and connection records",
+        "4": "Service usage history",
+        "5": "Settings and preference information"
+      }
+    },
+    "timeline": {
+      "title": "Deletion Timeline",
+      "immediate": "Immediate service suspension",
+      "complete": "Complete deletion",
+      "backup": "Backup data deletion",
+      "description": "Service access will be immediately suspended after requesting account deletion, and all personal data will be completely deleted within 7 days. Backup system data will be deleted within 30 days."
+    },
+    "legalRetention": {
+      "title": "Legally Required Data Retention",
+      "description": "In accordance with applicable laws, some data must be retained for the legal retention period:",
+      "items": {
+        "0": {
+          "title": "Service abuse records (1 year)",
+          "description": "Records for preventing fraudulent registration and usage"
+        },
+        "1": {
+          "title": "Consumer complaint handling records (3 years)",
+          "description": "Dispute resolution records under E-commerce Act"
+        },
+        "2": {
+          "title": "Website log records (3 months)",
+          "description": "Access records under Communications Secrets Protection Act"
+        },
+        "3": {
+          "title": "Payment-related records (5 years)",
+          "description": "Transaction records under E-commerce Act"
+        }
+      }
+    },
+    "irreversible": {
+      "title": "Irreversible Consequences",
+      "description": "Once your account is deleted, the following consequences will occur and cannot be undone:",
+      "consequences": {
+        "0": "All personal data and content will be permanently deleted",
+        "1": "Previous data cannot be recovered even if you re-register with the same information",
+        "2": "No data can be restored through any means after deletion"
+      }
+    },
+    "footer": {
+      "help": "If you have any questions about account deletion, please feel free to contact us.",
+      "contact": "Customer Support: hearty.service.2025@gmail.com"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Customer Support - Hearty",
+      "description": "Hearty customer support center. Contact us anytime if you have questions or inquiries."
+    },
+    "title": "Customer Support",
+    "subtitle": "Contact us anytime if you have questions or inquiries. We'll help you with friendly and prompt service.",
+    "quickContact": {
+      "title": "Quick Contact",
+      "email": {
+        "title": "Email Inquiry",
+        "response": "Response within 24 hours"
+      },
+      "phone": {
+        "title": "Phone Inquiry",
+        "hours": "Weekdays 09:00-18:00"
+      },
+      "kakao": {
+        "title": "KakaoTalk Support",
+        "description": "Real-time chat support"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "description": "Find quick solutions to your questions",
+        "button": "View FAQ"
+      }
+    },
+    "inquiryTypes": {
+      "title": "Inquiry Types Guide",
+      "account": {
+        "title": "Account Related",
+        "description": "Registration, login, account deletion and other account-related inquiries",
+        "deleteAccount": "Account Deletion Guide",
+        "emailSupport": "Email Support"
+      },
+      "technical": {
+        "title": "Technical Support",
+        "description": "App usage, error reports, feature inquiries and other technical issues",
+        "contact": "Connect to Technical Support"
+      },
+      "privacy": {
+        "title": "Privacy Related",
+        "description": "Personal data processing, data protection, information modification inquiries",
+        "contact": "Privacy Protection Officer"
+      }
+    },
+    "responseTime": {
+      "title": "Average Response Time",
+      "email": {
+        "title": "Email",
+        "time": "Within 24 hours"
+      },
+      "phone": {
+        "title": "Phone",
+        "time": "Immediate connection"
+      },
+      "kakao": {
+        "title": "KakaoTalk",
+        "time": "Real-time"
+      }
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "basic": {
+        "title": "Basic Information",
+        "name": "Company Name",
+        "business": "Business Registration Number",
+        "ceo": "CEO"
+      },
+      "address": {
+        "title": "Company Address",
+        "detail": "7th Floor, 456 Building, 123 Teheran-ro, Gangnam-gu, Seoul, South Korea"
+      },
+      "privacy": {
+        "title": "Privacy Protection Officer",
+        "officer": "Officer",
+        "email": "Email",
+        "phone": "Phone"
+      }
+    },
+    "businessHours": {
+      "title": "Business Hours",
+      "weekdays": "Weekdays",
+      "weekdaysTime": "09:00 - 18:00",
+      "saturday": "Saturday",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "Sunday",
+      "sundayTime": "Closed",
+      "note": "We are closed on public holidays. For urgent inquiries, please contact us via email and we will respond in order."
+    }
   }
 }

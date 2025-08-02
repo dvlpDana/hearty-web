@@ -11,8 +11,8 @@
     "download": "다운로드",
     "terms": "이용약관",
     "privacy": "개인정보처리방침",
-    "language": "언어",
-    "menu" : "메뉴 열기"
+    "contact": "문의하기",
+    "menu": "메뉴 열기"
   },
   "brand": {
     "name": "Hearty",
@@ -181,5 +181,175 @@
   },
   "privacy": {
     "title": "개인정보처리방침"
+  },
+  "deleteAccount": {
+    "meta": {
+      "title": "계정 삭제 안내 - Hearty",
+      "description": "Hearty 계정 삭제 방법과 주의사항을 확인하세요"
+    },
+    "title": "계정 삭제 안내",
+    "subtitle": "계정 삭제를 원하시는 경우 아래 내용을 꼼꼼히 확인해 주세요. 삭제된 계정과 데이터는 복구할 수 없습니다.",
+    "warning": {
+      "title": "⚠️ 중요한 안내사항",
+      "content": "계정 삭제는 되돌릴 수 없는 작업입니다. 삭제를 진행하기 전에 아래 내용을 반드시 확인해 주세요."
+    },
+    "howTo": {
+      "title": "계정 삭제 방법",
+      "steps": {
+        "0": "Hearty 앱을 실행하고 로그인합니다",
+        "1": "설정 메뉴로 이동합니다",
+        "2": "계정 관리 → 계정 삭제를 선택합니다",
+        "3": "삭제 확인 절차를 완료합니다"
+      }
+    },
+    "contact": {
+      "title": "문의를 통한 삭제 요청",
+      "description": "앱에서 삭제가 어려우신 경우, 고객센터로 직접 연락해 주세요.",
+      "button": "고객센터 문의하기"
+    },
+    "deletedData": {
+      "title": "삭제되는 데이터 목록",
+      "items": {
+        "0": "프로필 정보 (닉네임, 연령대, 관심사)",
+        "1": "음성 메시지 기록",
+        "2": "채팅 및 대화 내용",
+        "3": "친구 목록 및 연결 기록",
+        "4": "서비스 이용 기록",
+        "5": "설정 및 환경설정 정보"
+      }
+    },
+    "timeline": {
+      "title": "삭제 처리 기간",
+      "immediate": "즉시 서비스 이용 정지",
+      "complete": "완전 삭제 완료",
+      "backup": "백업 데이터 삭제",
+      "description": "계정 삭제 요청 후 즉시 서비스 이용이 정지되며, 7일 이내에 모든 개인 데이터가 완전히 삭제됩니다. 백업 시스템의 데이터는 30일 이내에 삭제됩니다."
+    },
+    "legalRetention": {
+      "title": "법적 보관 의무 데이터",
+      "description": "관련 법령에 따라 일부 데이터는 법정 보관 기간 동안 보관됩니다:",
+      "items": {
+        "0": {
+          "title": "서비스 부정이용 기록 (1년)",
+          "description": "부정 가입 및 이용 방지를 위한 기록"
+        },
+        "1": {
+          "title": "소비자 불만 처리 기록 (3년)",
+          "description": "전자상거래법에 따른 분쟁 처리 기록"
+        },
+        "2": {
+          "title": "웹사이트 로그 기록 (3개월)",
+          "description": "통신비밀보호법에 따른 접속 기록"
+        },
+        "3": {
+          "title": "결제 관련 기록 (5년)",
+          "description": "전자상거래법에 따른 거래 기록"
+        }
+      }
+    },
+    "irreversible": {
+      "title": "복구 불가능 안내",
+      "description": "계정이 삭제되면 다음과 같은 결과가 발생하며, 이는 되돌릴 수 없습니다:",
+      "consequences": {
+        "0": "모든 개인 데이터와 콘텐츠가 영구적으로 삭제됩니다",
+        "1": "동일한 정보로 재가입하더라도 이전 데이터는 복구되지 않습니다",
+        "2": "삭제 후에는 어떠한 방법으로도 데이터를 복원할 수 없습니다"
+      }
+    },
+    "footer": {
+      "help": "계정 삭제 관련하여 궁금한 점이 있으시면 언제든 문의해 주세요.",
+      "contact": "고객센터: hearty.service.2025@gmail.com"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "고객센터 - Hearty",
+      "description": "Hearty 고객센터입니다. 궁금한 점이나 문의사항이 있으시면 언제든 연락해 주세요."
+    },
+    "title": "고객센터",
+    "subtitle": "궁금한 점이나 문의사항이 있으시면 언제든 연락해 주세요. 친절하고 빠른 서비스로 도움을 드리겠습니다.",
+    "quickContact": {
+      "title": "빠른 문의",
+      "email": {
+        "title": "이메일 문의",
+        "response": "24시간 이내 답변"
+      },
+      "phone": {
+        "title": "전화 문의",
+        "hours": "평일 09:00-18:00"
+      },
+      "kakao": {
+        "title": "카카오톡 상담",
+        "description": "실시간 채팅 상담"
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "description": "궁금한 점을 빠르게 해결하세요",
+        "button": "FAQ 보기"
+      }
+    },
+    "inquiryTypes": {
+      "title": "문의 유형별 안내",
+      "account": {
+        "title": "계정 관련 문의",
+        "description": "회원가입, 로그인, 계정 삭제 등 계정 관련 문의사항",
+        "deleteAccount": "계정 삭제 안내",
+        "emailSupport": "이메일 문의"
+      },
+      "technical": {
+        "title": "기술 지원",
+        "description": "앱 사용법, 오류 신고, 기능 문의 등 기술적인 문제",
+        "contact": "기술지원팀 연결"
+      },
+      "privacy": {
+        "title": "개인정보 관련",
+        "description": "개인정보 처리, 데이터 보호, 정보 수정 등에 관한 문의",
+        "contact": "개인정보보호 담당자"
+      }
+    },
+    "responseTime": {
+      "title": "평균 응답시간",
+      "email": {
+        "title": "이메일",
+        "time": "24시간 이내"
+      },
+      "phone": {
+        "title": "전화",
+        "time": "즉시 연결"
+      },
+      "kakao": {
+        "title": "카카오톡",
+        "time": "실시간"
+      }
+    },
+    "companyInfo": {
+      "title": "회사 정보",
+      "basic": {
+        "title": "기본 정보",
+        "name": "회사명",
+        "business": "사업자등록번호",
+        "ceo": "대표자"
+      },
+      "address": {
+        "title": "회사 주소",
+        "detail": "서울특별시 강남구 테헤란로 123, 456빌딩 7층"
+      },
+      "privacy": {
+        "title": "개인정보보호책임자",
+        "officer": "책임자",
+        "email": "이메일",
+        "phone": "연락처"
+      }
+    },
+    "businessHours": {
+      "title": "운영시간",
+      "weekdays": "평일",
+      "weekdaysTime": "09:00 - 18:00",
+      "saturday": "토요일",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "일요일",
+      "sundayTime": "휴무",
+      "note": "공휴일은 휴무이며, 긴급한 문의는 이메일로 연락 주시면 순차적으로 답변드립니다."
+    }
   }
 }
