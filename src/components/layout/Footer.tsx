@@ -4,11 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Heart } from 'lucide-react';
 import Image from 'next/image';
-const heartyColors = {
-  gradient: 'bg-gradient-to-r from-orange-500 to-pink-400',
-};
 
 export default function Footer() {
   const t = useTranslations('footer');

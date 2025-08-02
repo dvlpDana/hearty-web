@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { Section } from '@/components/custom/Section';
@@ -7,13 +6,12 @@ import { serviceTerm as serviceTermEn } from '@/constants/service_en';
 import { serviceTerm as serviceTermEs } from '@/constants/service_es';
 
 type Props = {
-  params: { locale: string };
-  searchParams: { locale?: string };
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ locale?: string }>;
 };
 
-export async function generateMetadata({
-  params: { locale },
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'terms' });
 
   return {
@@ -22,15 +20,13 @@ export async function generateMetadata({
   };
 }
 
-export default function TermsPage({ searchParams }: Props) {
-  const t = useTranslations('terms');
-
-  // searchParams에서 locale을 가져오거나 기본값 'ko' 사용
-  const currentLocale = searchParams.locale || 'ko';
+export default async function TermsPage({ params }: Props) {
+  // searchParams Promise를 await
+  const { locale } = await params;
 
   // locale에 따라 해당하는 약관 선택
   const getTermsContent = () => {
-    switch (currentLocale) {
+    switch (locale) {
       case 'en':
         return serviceTermEn;
       case 'es':

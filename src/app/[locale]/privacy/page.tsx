@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { Section } from '@/components/custom/Section';
@@ -7,13 +6,12 @@ import { privacyTerm as privacyTermEn } from '@/constants/privacy_en';
 import { privacyTerm as privacyTermEs } from '@/constants/privacy_es';
 
 type Props = {
-  params: { locale: string };
-  searchParams: { locale?: string };
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ locale?: string }>;
 };
 
-export async function generateMetadata({
-  params: { locale },
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'privacy' });
 
   return {
@@ -22,15 +20,13 @@ export async function generateMetadata({
   };
 }
 
-export default function PrivacyPage({ searchParams }: Props) {
-  const t = useTranslations('privacy');
-
+export default async function PrivacyPage({ params }: Props) {
   // searchParams에서 locale을 가져오거나 기본값 'ko' 사용
-  const currentLocale = searchParams.locale || 'ko';
+  const { locale } = await params;
 
   // locale에 따라 해당하는 개인정보처리방침 선택
   const getPrivacyContent = () => {
-    switch (currentLocale) {
+    switch (locale) {
       case 'en':
         return privacyTermEn;
       case 'es':

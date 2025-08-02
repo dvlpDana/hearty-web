@@ -309,15 +309,29 @@ export const generateStructuredData = (locale: string) => {
 
 // SEO 최적화를 위한 추가 헬퍼 함수들
 export const getHreflangAlternates = (currentLocale: string) => {
-  return {
-    'ko-KR': 'https://hearty.kr',
-    'en-US': 'https://hearty.kr/en',
-    'x-default': 'https://hearty.kr',
-  };
+  switch (currentLocale) {
+    case 'ko':
+      return {
+        'ko-KR': 'https://hearty.kr',
+        'en-US': 'https://hearty.kr/en',
+        'x-default': 'https://hearty.kr',
+      };
+    case 'en':
+      return {
+        'ko-KR': 'https://hearty.kr',
+        'en-US': 'https://hearty.kr/en',
+        'x-default': 'https://hearty.kr/en',
+      };
+    default:
+      return {
+        'ko-KR': 'https://hearty.kr',
+        'en-US': 'https://hearty.kr/en',
+        'x-default': 'https://hearty.kr',
+      };
+  }
 };
 
 export const getBreadcrumbStructuredData = (
-  locale: string,
   breadcrumbs: Array<{ name: string; url: string }>
 ) => {
   return {

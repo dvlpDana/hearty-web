@@ -3,9 +3,8 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { ArrowRight, UserPlus, Mic, MessageCircle } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
 import { Section } from '@/components/custom/Section';
-import { cn, heartyColors } from '@/lib/utils';
+import { cn } from '@/lib/utils';
 
 const stepIcons = [UserPlus, Mic, MessageCircle];
 const stepColors = ['bg-orange-500', 'bg-pink-500', 'bg-green-500'];
