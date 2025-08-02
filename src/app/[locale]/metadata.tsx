@@ -3,9 +3,9 @@ import { Metadata } from 'next';
 
 const i18nMeta: Record<string, Metadata> = {
   ko: {
-    title: 'Hearty - 마음을 나누는 시니어 음성 소통 앱',
+    title: 'Hearty - 세대를 넘나드는 따뜻한 음성 소통 플랫폼',
     description:
-      '시니어들이 익명으로 따뜻한 음성 메시지를 주고받는 소통 플랫폼입니다. 라디오 DJ처럼 편안하게 이야기를 나누세요.',
+      '10대부터 80대까지, 모든 세대가 익명으로 음성 메시지를 주고받으며 따뜻한 마음을 나누는 소통 플랫폼입니다.',
     keywords: [
       '시니어',
       '음성메시지',
@@ -38,10 +38,10 @@ const i18nMeta: Record<string, Metadata> = {
     },
     manifest: '/manifest.json',
     openGraph: {
-      title: 'Hearty - 마음을 나누는 시니어 음성 소통 앱',
+      title: 'Hearty - 세대를 넘나드는 따뜻한 음성 소통 플랫폼',
       description:
-        '시니어들이 익명으로 따뜻한 음성 메시지를 주고받는 소통 플랫폼입니다.',
-      url: 'https://hearty.kr',
+        '10대부터 80대까지, 모든 세대가 익명으로 음성 메시지를 주고받으며 따뜻한 마음을 나누는 소통 플랫폼입니다.',
+      url: 'https://hearty-web.vercel.app',
       siteName: 'Hearty',
       locale: 'ko_KR',
       type: 'website',
@@ -50,10 +50,10 @@ const i18nMeta: Record<string, Metadata> = {
           url: '/images/og-image-ko.jpg',
           width: 1200,
           height: 630,
-          alt: 'Hearty - 마음을 나누는 시니어 음성 소통 앱',
+          alt: 'Hearty - 세대를 넘나드는 따뜻한 음성 소통 플랫폼',
         },
         {
-          url: '/images/og-image-square-ko.jpg',
+          url: '/images/og-image-square.jpg',
           width: 1200,
           height: 1200,
           alt: 'Hearty 앱 아이콘',
@@ -62,28 +62,25 @@ const i18nMeta: Record<string, Metadata> = {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Hearty - 마음을 나누는 시니어 음성 소통 앱',
+      title: 'Hearty - 세대를 넘나드는 따뜻한 음성 소통 플랫폼',
       description:
-        '시니어들이 익명으로 따뜻한 음성 메시지를 주고받는 소통 플랫폼입니다.',
+        '10대부터 80대까지, 모든 세대가 익명으로 음성 메시지를 주고받으며 따뜻한 마음을 나누는 소통 플랫폼입니다.',
       creator: '@hearty_kr',
       images: ['/images/og-image-ko.jpg'],
     },
     alternates: {
-      canonical: 'https://hearty.kr',
+      canonical: 'https://hearty-web.vercel.app',
       languages: {
-        'ko-KR': 'https://hearty.kr',
-        'en-US': 'https://hearty.kr/en',
+        'ko-KR': 'https://hearty-web.vercel.app/ko',
+        'en-US': 'https://hearty-web.vercel.app/en',
+        'es-ES': 'https://hearty-web.vercel.app/es',
       },
-    },
-    other: {
-      'naver-site-verification': 'your-naver-verification-code',
-      'google-site-verification': 'your-google-verification-code',
     },
   },
   en: {
-    title: 'Hearty - Senior Voice Communication App for Sharing Hearts',
+    title: 'Hearty - Cross-Generational Voice Communication Platform',
     description:
-      'A communication platform where seniors can anonymously exchange warm voice messages. Chat comfortably like radio DJs.',
+      'A warm communication platform where all generations from teens to 80s+ can anonymously share voice messages as mentors, peers, and friends.',
     keywords: [
       'senior',
       'voice message',
@@ -116,10 +113,10 @@ const i18nMeta: Record<string, Metadata> = {
     },
     manifest: '/manifest.json',
     openGraph: {
-      title: 'Hearty - Senior Voice Communication App for Sharing Hearts',
+      title: 'Hearty - Cross-Generational Voice Communication Platform',
       description:
-        'A communication platform where seniors can anonymously exchange warm voice messages.',
-      url: 'https://hearty.kr/en',
+        'A warm communication platform where all generations from teens to 80s+ can anonymously share voice messages as mentors, peers, and friends.',
+      url: 'https://hearty-web.vercel.app/en',
       siteName: 'Hearty',
       locale: 'en_US',
       type: 'website',
@@ -128,10 +125,10 @@ const i18nMeta: Record<string, Metadata> = {
           url: '/images/og-image-en.jpg',
           width: 1200,
           height: 630,
-          alt: 'Hearty - Senior Voice Communication App for Sharing Hearts',
+          alt: 'Hearty - Cross-Generational Voice Communication Platform',
         },
         {
-          url: '/images/og-image-square-en.jpg',
+          url: '/images/og-image-square.jpg',
           width: 1200,
           height: 1200,
           alt: 'Hearty App Icon',
@@ -140,21 +137,97 @@ const i18nMeta: Record<string, Metadata> = {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Hearty - Senior Voice Communication App for Sharing Hearts',
+      title: 'Hearty - Cross-Generational Voice Communication Platform',
       description:
-        'A communication platform where seniors can anonymously exchange warm voice messages.',
+        'A warm communication platform where all generations from teens to 80s+ can anonymously share voice messages as mentors, peers, and friends.',
       creator: '@hearty_global',
       images: ['/images/og-image-en.jpg'],
     },
     alternates: {
-      canonical: 'https://hearty.kr/en',
+      canonical: 'https://hearty-web.vercel.app/en',
       languages: {
-        'ko-KR': 'https://hearty.kr',
-        'en-US': 'https://hearty.kr/en',
+        'ko-KR': 'https://hearty-web.vercel.app/ko',
+        'en-US': 'https://hearty-web.vercel.app/en',
+        'es-ES': 'https://hearty-web.vercel.app/es',
       },
     },
     other: {
       'google-site-verification': 'your-google-verification-code',
+    },
+  },
+  es: {
+    title: 'Hearty - Plataforma de Comunicación de Voz Intergeneracional',
+    description:
+      'Una plataforma de comunicación cálida donde todas las generaciones, desde adolescentes hasta mayores de 80 años, pueden compartir mensajes de voz de forma anónima como mentores, compañeros y amigos.',
+    keywords: [
+      'mayores',
+      'mensaje de voz',
+      'comunicación',
+      'comunidad',
+      'anónimo',
+      'radio',
+      'conversación cálida',
+      'app para mayores',
+      'chat de voz',
+    ],
+    authors: [{ name: 'Equipo Hearty' }],
+    creator: 'Hearty',
+    publisher: 'Hearty',
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon.ico',
+      apple: '/apple-touch-icon.png',
+    },
+    manifest: '/manifest.json',
+    openGraph: {
+      title: 'Hearty - Plataforma de Comunicación de Voz Intergeneracional',
+      description:
+        'Una plataforma de comunicación cálida donde todas las generaciones, desde adolescentes hasta mayores de 80 años, pueden compartir mensajes de voz de forma anónima como mentores, compañeros y amigos.',
+      url: 'https://hearty-web.vercel.app/es',
+      siteName: 'Hearty',
+      locale: 'es_ES',
+      type: 'website',
+      images: [
+        {
+          url: '/images/og-image-es.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Hearty - Plataforma de Comunicación de Voz Intergeneracional',
+        },
+        {
+          url: '/images/og-image-square.jpg',
+          width: 1200,
+          height: 1200,
+          alt: 'Icono de la App Hearty',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Hearty - Plataforma de Comunicación de Voz Intergeneracional',
+      description:
+        'Una plataforma de comunicación cálida donde todas las generaciones, desde adolescentes hasta mayores de 80 años, pueden compartir mensajes de voz de forma anónima como mentores, compañeros y amigos.',
+      creator: '@hearty_es',
+      images: ['/images/og-image-es.jpg'],
+    },
+    alternates: {
+      canonical: 'https://hearty-web.vercel.app/es',
+      languages: {
+        'ko-KR': 'https://hearty-web.vercel.app/ko',
+        'en-US': 'https://hearty-web.vercel.app/en',
+        'es-ES': 'https://hearty-web.vercel.app/es',
+      },
     },
   },
 };
@@ -169,7 +242,7 @@ const pageSpecificMeta: Record<string, Record<string, Partial<Metadata>>> = {
       openGraph: {
         title: '서비스 이용약관 - Hearty',
         description: 'Hearty 서비스 이용약관을 확인하세요.',
-        url: 'https://hearty.kr/terms',
+        url: 'https://hearty-web.vercel.app/terms',
       },
     },
     en: {
@@ -179,7 +252,17 @@ const pageSpecificMeta: Record<string, Record<string, Partial<Metadata>>> = {
       openGraph: {
         title: 'Terms of Service - Hearty',
         description: 'Check the Terms of Service for Hearty.',
-        url: 'https://hearty.kr/en/terms',
+        url: 'https://hearty-web.vercel.app/en/terms',
+      },
+    },
+    es: {
+      title: 'Términos de Servicio - Hearty',
+      description:
+        'Consulta los Términos de Servicio de Hearty. Información importante que necesitas saber al usar nuestro servicio de comunicación de voz para mayores.',
+      openGraph: {
+        title: 'Términos de Servicio - Hearty',
+        description: 'Consulta los Términos de Servicio de Hearty.',
+        url: 'https://hearty-web.vercel.app/es/terms',
       },
     },
   },
@@ -191,7 +274,7 @@ const pageSpecificMeta: Record<string, Record<string, Partial<Metadata>>> = {
       openGraph: {
         title: '개인정보처리방침 - Hearty',
         description: 'Hearty의 개인정보처리방침을 확인하세요.',
-        url: 'https://hearty.kr/privacy',
+        url: 'https://hearty-web.vercel.app/privacy',
       },
     },
     en: {
@@ -201,30 +284,17 @@ const pageSpecificMeta: Record<string, Record<string, Partial<Metadata>>> = {
       openGraph: {
         title: 'Privacy Policy - Hearty',
         description: "Check Hearty's Privacy Policy.",
-        url: 'https://hearty.kr/en/privacy',
+        url: 'https://hearty-web.vercel.app/en/privacy',
       },
     },
-  },
-  download: {
-    ko: {
-      title: '앱 다운로드 - Hearty',
+    es: {
+      title: 'Política de Privacidad - Hearty',
       description:
-        'Hearty 앱을 다운로드하고 따뜻한 음성 소통을 시작하세요. App Store와 Google Play에서 무료로 다운로드 가능합니다.',
+        'Consulta la Política de Privacidad de Hearty. Aprende cómo protegemos de forma segura la información personal de los usuarios mayores.',
       openGraph: {
-        title: '앱 다운로드 - Hearty',
-        description: 'Hearty 앱을 다운로드하고 따뜻한 음성 소통을 시작하세요.',
-        url: 'https://hearty.kr/download',
-      },
-    },
-    en: {
-      title: 'Download App - Hearty',
-      description:
-        'Download the Hearty app and start warm voice communication. Available for free on App Store and Google Play.',
-      openGraph: {
-        title: 'Download App - Hearty',
-        description:
-          'Download the Hearty app and start warm voice communication.',
-        url: 'https://hearty.kr/en/download',
+        title: 'Política de Privacidad - Hearty',
+        description: 'Consulta la Política de Privacidad de Hearty.',
+        url: 'https://hearty-web.vercel.app/es/privacy',
       },
     },
   },
@@ -261,9 +331,9 @@ export const generateStructuredData = (locale: string) => {
     '@type': 'MobileApplication',
     name: isKorean ? 'Hearty - 마음의 소리' : 'Hearty - Voice of the Heart',
     description: isKorean
-      ? '시니어들이 익명으로 따뜻한 음성 메시지를 주고받는 소통 플랫폼'
-      : 'A communication platform where seniors can anonymously exchange warm voice messages',
-    url: `https://hearty.kr${locale === 'en' ? '/en' : ''}`,
+      ? '세대를 넘나드는 따뜻한 음성 소통 플랫폼'
+      : 'Cross-Generational Voice Communication Platform',
+    url: `https://hearty-web.vercel.app${locale === 'en' ? '/en' : ''}`,
     applicationCategory: 'SocialNetworkingApplication',
     operatingSystem: ['Android', 'iOS'],
     offers: {
@@ -274,15 +344,15 @@ export const generateStructuredData = (locale: string) => {
     author: {
       '@type': 'Organization',
       name: 'Hearty',
-      url: 'https://hearty.kr',
+      url: 'https://hearty-web.vercel.app',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Hearty',
-      url: 'https://hearty.kr',
+      url: 'https://hearty-web.vercel.app',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://hearty.kr/images/logo.png',
+        url: 'https://hearty-web.vercel.app/images/logo.png',
       },
     },
     inLanguage: locale === 'ko' ? 'ko-KR' : 'en-US',
@@ -293,16 +363,20 @@ export const generateStructuredData = (locale: string) => {
     },
     featureList: isKorean
       ? [
-          '익명 음성 소통',
-          '라디오 DJ 경험',
-          '시니어 특화 디자인',
-          '관심사 기반 매칭',
+          '세대간소통',
+          '음성메시지',
+          '익명소통',
+          '시니어친화적',
+          '따뜻한대화',
+          '세대공감',
         ]
       : [
-          'Anonymous Voice Communication',
-          'Radio DJ Experience',
-          'Senior-Friendly Design',
-          'Interest-Based Matching',
+          'intergenerational communication',
+          'voice messages',
+          'anonymous chat',
+          'senior-friendly',
+          'warm conversation',
+          'generational empathy',
         ],
   };
 };
@@ -311,23 +385,13 @@ export const generateStructuredData = (locale: string) => {
 export const getHreflangAlternates = (currentLocale: string) => {
   switch (currentLocale) {
     case 'ko':
-      return {
-        'ko-KR': 'https://hearty.kr',
-        'en-US': 'https://hearty.kr/en',
-        'x-default': 'https://hearty.kr',
-      };
+      return 'https://hearty-web.vercel.app/ko';
     case 'en':
-      return {
-        'ko-KR': 'https://hearty.kr',
-        'en-US': 'https://hearty.kr/en',
-        'x-default': 'https://hearty.kr/en',
-      };
+      return 'https://hearty-web.vercel.app/en';
+    case 'es':
+      return 'https://hearty-web.vercel.app/es';
     default:
-      return {
-        'ko-KR': 'https://hearty.kr',
-        'en-US': 'https://hearty.kr/en',
-        'x-default': 'https://hearty.kr',
-      };
+      return 'https://hearty-web.vercel.app';
   }
 };
 
@@ -349,15 +413,18 @@ export const getBreadcrumbStructuredData = (
 // 사이트맵 생성을 위한 URL 구조
 export const siteUrls = {
   ko: {
-    home: 'https://hearty.kr',
-    terms: 'https://hearty.kr/terms',
-    privacy: 'https://hearty.kr/privacy',
-    download: 'https://hearty.kr/download',
+    home: 'https://hearty-web.vercel.app/ko',
+    terms: 'https://hearty-web.vercel.app/ko/terms',
+    privacy: 'https://hearty-web.vercel.app/ko/privacy',
   },
   en: {
-    home: 'https://hearty.kr/en',
-    terms: 'https://hearty.kr/en/terms',
-    privacy: 'https://hearty.kr/en/privacy',
-    download: 'https://hearty.kr/en/download',
+    home: 'https://hearty-web.vercel.app/en',
+    terms: 'https://hearty-web.vercel.app/en/terms',
+    privacy: 'https://hearty-web.vercel.app/en/privacy',
+  },
+  es: {
+    home: 'https://hearty-web.vercel.app/es',
+    terms: 'https://hearty-web.vercel.app/es/terms',
+    privacy: 'https://hearty-web.vercel.app/es/privacy',
   },
 };
