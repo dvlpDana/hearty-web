@@ -174,5 +174,11 @@
     "safe": "안전한",
     "easy": "쉬운 사용법",
     "imageAlt": "Hearty 이미지"
+  },
+  "terms": {
+    "title": "서비스 이용약관"
+  },
+  "privacy": {
+    "title": "개인정보처리방침"
   }
 }

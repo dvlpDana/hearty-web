@@ -174,5 +174,11 @@
     "safe": "Safe",
     "easy": "Easy to Use",
     "imageAlt": "Hearty Image"
+  },
+  "terms": {
+    "title": "Terms of Service"
+  },
+  "privacy": {
+    "title": "Privacy Policy"
   }
 }

@@ -174,5 +174,11 @@
     "safe": "Seguro",
     "easy": "Fácil de Usar",
     "imageAlt": "Imagen de Hearty"
+  },
+  "terms": {
+    "title": "Términos de Servicio"
+  },
+  "privacy": {
+    "title": "Política de Privacidad"
   }
 }
