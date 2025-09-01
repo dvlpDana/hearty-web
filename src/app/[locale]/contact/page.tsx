@@ -60,51 +60,29 @@ export default function ContactPage() {
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* 이메일 */}
-                  <div className="flex items-center gap-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                  <a
+                    href="mailto:hearty.service.2025@gmail.com"
+                    className="flex items-center gap-4 p-4 bg-blue-50 rounded-lg border border-blue-200 hover:bg-blue-100"
+                  >
                     <Mail className="h-8 w-8 text-blue-600 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-blue-800">
                         {t('quickContact.email.title')}
                       </h4>
-                      <p className="text-sm text-blue-600">
+                      <span className="text-sm text-blue-600 underline">
                         hearty.service.2025@gmail.com
-                      </p>
+                      </span>
                       <p className="text-xs text-blue-500">
                         {t('quickContact.email.response')}
                       </p>
                     </div>
-                  </div>
-
-                  {/* 전화 */}
-                  <div className="flex items-center gap-4 p-4 bg-green-50 rounded-lg border border-green-200">
-                    <Phone className="h-8 w-8 text-green-600 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold text-green-800">
-                        {t('quickContact.phone.title')}
-                      </h4>
-                      <p className="text-sm text-green-600">1588-0000</p>
-                      <p className="text-xs text-green-500">
-                        {t('quickContact.phone.hours')}
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* 카카오톡 */}
-                  <div className="flex items-center gap-4 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-                    <MessageCircle className="h-8 w-8 text-yellow-600 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold text-yellow-800">
-                        {t('quickContact.kakao.title')}
-                      </h4>
-                      <p className="text-sm text-yellow-600">@hearty_support</p>
-                      <p className="text-xs text-yellow-500">
-                        {t('quickContact.kakao.description')}
-                      </p>
-                    </div>
-                  </div>
+                  </a>
 
                   {/* FAQ */}
-                  <div className="flex items-center gap-4 p-4 bg-purple-50 rounded-lg border border-purple-200">
+                  <Link
+                    href="/faq"
+                    className="flex items-center gap-4 p-4 bg-purple-50 rounded-lg border border-purple-200 hover:bg-purple-100"
+                  >
                     <HelpCircle className="h-8 w-8 text-purple-600 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-purple-800">
@@ -113,14 +91,11 @@ export default function ContactPage() {
                       <p className="text-sm text-purple-600">
                         {t('quickContact.faq.description')}
                       </p>
-                      <Button
-                        variant="link"
-                        className="text-purple-600 p-0 h-auto text-xs"
-                      >
+                      <span className="text-purple-600 p-0 h-auto text-xs underline">
                         {t('quickContact.faq.button')}
-                      </Button>
+                      </span>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -145,38 +120,21 @@ export default function ContactPage() {
                         {t('inquiryTypes.account.description')}
                       </p>
                       <div className="flex flex-wrap gap-2">
-                        <Link href="/contact/delete-account">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="text-xs"
-                          >
-                            <Trash2 className="h-3 w-3 mr-1" />
-                            {t('inquiryTypes.account.deleteAccount')}
-                          </Button>
+                        <Link
+                          href="/contact/delete-account"
+                          className="inline-flex items-center justify-center text-xs px-3 py-2 border rounded-md text-gray-700 border-gray-600 hover:bg-gray-50"
+                        >
+                          <Trash2 className="h-3 w-3 mr-1" />
+                          {t('inquiryTypes.account.deleteAccount')}
                         </Link>
-                        <Button variant="outline" size="sm" className="text-xs">
+                        <a
+                          href="mailto:hearty.service.2025@gmail.com"
+                          className="inline-flex items-center justify-center text-xs px-3 py-2 border rounded-md text-blue-600 border-blue-600 hover:bg-blue-50"
+                        >
                           <Mail className="h-3 w-3 mr-1" />
                           {t('inquiryTypes.account.emailSupport')}
-                        </Button>
+                        </a>
                       </div>
-                    </div>
-                  </div>
-
-                  {/* 기술 지원 */}
-                  <div className="flex items-start gap-4 p-4 border rounded-lg">
-                    <Settings className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-foreground">
-                        {t('inquiryTypes.technical.title')}
-                      </h4>
-                      <p className="text-sm text-muted-foreground mb-2">
-                        {t('inquiryTypes.technical.description')}
-                      </p>
-                      <Button variant="outline" size="sm" className="text-xs">
-                        <MessageCircle className="h-3 w-3 mr-1" />
-                        {t('inquiryTypes.technical.contact')}
-                      </Button>
                     </div>
                   </div>
 
@@ -192,49 +150,8 @@ export default function ContactPage() {
                       </p>
                       <p className="text-xs text-muted-foreground">
                         {t('inquiryTypes.privacy.contact')}:
-                      colleksql3@gmail.com
+                        colleksql3@gmail.com
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* 응답시간 안내 */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl text-warm-orange-600 flex items-center gap-2">
-                  <Clock className="h-5 w-5" />
-                  {t('responseTime.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="text-center p-4 bg-blue-50 rounded-lg">
-                    <Mail className="h-8 w-8 text-blue-600 mx-auto mb-2" />
-                    <div className="font-semibold text-blue-800">
-                      {t('responseTime.email.title')}
-                    </div>
-                    <div className="text-sm text-blue-600">
-                      {t('responseTime.email.time')}
-                    </div>
-                  </div>
-                  <div className="text-center p-4 bg-green-50 rounded-lg">
-                    <Phone className="h-8 w-8 text-green-600 mx-auto mb-2" />
-                    <div className="font-semibold text-green-800">
-                      {t('responseTime.phone.title')}
-                    </div>
-                    <div className="text-sm text-green-600">
-                      {t('responseTime.phone.time')}
-                    </div>
-                  </div>
-                  <div className="text-center p-4 bg-yellow-50 rounded-lg">
-                    <MessageCircle className="h-8 w-8 text-yellow-600 mx-auto mb-2" />
-                    <div className="font-semibold text-yellow-800">
-                      {t('responseTime.kakao.title')}
-                    </div>
-                    <div className="text-sm text-yellow-600">
-                      {t('responseTime.kakao.time')}
                     </div>
                   </div>
                 </div>
@@ -283,50 +200,6 @@ export default function ContactPage() {
                     <p>{t('companyInfo.privacy.officer')}: 심단비</p>
                     <p>
                       {t('companyInfo.privacy.email')}: colleksql3@gmail.com
-                    </p>
-                    <p>{t('companyInfo.privacy.phone')}: 01031070596</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* 운영시간 */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl text-warm-orange-600 flex items-center gap-2">
-                  <Clock className="h-5 w-5" />
-                  {t('businessHours.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3">
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span className="text-sm font-medium">
-                      {t('businessHours.weekdays')}
-                    </span>
-                    <span className="text-sm text-muted-foreground">
-                      {t('businessHours.weekdaysTime')}
-                    </span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b">
-                    <span className="text-sm font-medium">
-                      {t('businessHours.saturday')}
-                    </span>
-                    <span className="text-sm text-muted-foreground">
-                      {t('businessHours.saturdayTime')}
-                    </span>
-                  </div>
-                  <div className="flex justify-between items-center py-2">
-                    <span className="text-sm font-medium">
-                      {t('businessHours.sunday')}
-                    </span>
-                    <span className="text-sm text-red-600">
-                      {t('businessHours.sundayTime')}
-                    </span>
-                  </div>
-                  <div className="mt-4 p-3 bg-amber-50 rounded-lg border border-amber-200">
-                    <p className="text-xs text-amber-700">
-                      {t('businessHours.note')}
                     </p>
                   </div>
                 </div>
