@@ -146,7 +146,7 @@ export const serviceTerm = {
           for a use agreement.
         </li>
         <li>
-          Notwithstanding the previous paragraph, the Company may withhold, refuse, or 
+          When under 18 years of age Notwithstanding the previous paragraph, the Company may withhold, refuse, or 
           restrict membership registration in the following cases:
           <ul class="sub-list">
             <li>When the applicant has previously lost membership under these Terms</li>
@@ -495,6 +495,95 @@ export const serviceTerm = {
         <h2>Article 1 (Effective Date)</h2>
         <p>These Terms shall take effect from August 1, 2025.</p>
       </div>
+    </div>
+
+    <div class="section">
+      <h2>Article 23 (Content Safety Policy and Zero Tolerance)</h2>
+      <ol>
+        <li>
+          The Company applies a zero tolerance policy for the following behaviors to ensure 
+          all users can utilize the service in a safe and healthy environment:
+          <ul class="sub-list">
+            <li>Hate speech, discriminatory expressions, profanity, and vulgar language</li>
+            <li>Harassment, threats, or bullying of others</li>
+            <li>Posting sexual, violent, or illegal content</li>
+            <li>Disclosure of personal information or invasion of privacy</li>
+            <li>Spam, advertisements, or unauthorized commercial postings</li>
+            <li>Other content contrary to public order and morals</li>
+          </ul>
+        </li>
+        <li>
+          When such behaviors are detected, immediate measures including account suspension, 
+          content deletion, and service restrictions may be taken. In severe cases, 
+          permanent service bans will be imposed.
+        </li>
+        <li>
+          The Company monitors inappropriate content through automated systems and 
+          administrator review, and reviews and takes action on reported content 
+          within 24 hours as a principle.
+        </li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Article 24 (User Protection Features)</h2>
+      <ol>
+        <li>
+          The service provides the following features for user safety:
+          <ul class="sub-list">
+            <li>Inappropriate content reporting function</li>
+            <li>User blocking function</li>
+            <li>Immediate deletion of own content</li>
+            <li>Automated content filtering system</li>
+          </ul>
+        </li>
+        <li>
+          Users have an obligation to immediately report content deemed inappropriate. 
+          False reporting may result in service restrictions.
+        </li>
+        <li>
+          Through the blocking function, users can prevent viewing content from specific 
+          users, and blocked users cannot send messages to the blocking user.
+        </li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Article 25 (Age Restrictions and Minor Protection)</h2>
+      <ol>
+        <li>
+          This service is only available to adults aged 18 and over.
+        </li>
+        <li>
+          Age verification procedures must be completed during membership registration, 
+          and accounts will be immediately deleted if false information is provided.
+        </li>
+        <li>
+          If minor usage is confirmed, the account will be immediately suspended 
+          and related data will be deleted.
+        </li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Article 26 (Problem Reporting and Customer Support)</h2>
+      <ol>
+        <li>
+          Problems occurring during service use or inappropriate content can be reported 
+          through the following contacts:
+          <ul class="sub-list">
+            <li>Email: support@danbilabs.com</li>
+            <li>In-app reporting function</li>
+          </ul>
+        </li>
+        <li>
+          All reports are reviewed within 24 hours of receipt, and necessary 
+          actions are taken.
+        </li>
+        <li>
+          For urgent safety issues, users may immediately report to relevant authorities.
+        </li>
+      </ol>
     </div>
   </body>
   `,

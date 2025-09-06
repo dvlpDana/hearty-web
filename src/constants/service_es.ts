@@ -152,7 +152,7 @@ export const serviceTerm = {
           solicitud para un acuerdo de uso.
         </li>
         <li>
-          No obstante el párrafo anterior, la Compañía puede retener, rechazar o 
+          Cuando sea menor de 18 años No obstante el párrafo anterior, la Compañía puede retener, rechazar o 
           restringir el registro de membresía en los siguientes casos:
           <ul class="sub-list">
             <li>Cuando el solicitante haya perdido previamente la membresía bajo estos Términos</li>
@@ -517,6 +517,101 @@ export const serviceTerm = {
         <p>Estos Términos entrarán en vigor a partir del 1 de agosto de 2025.</p>
       </div>
     </div>
+
+    <div class="section">
+      <h2>Artículo 23 (Política de Seguridad de Contenido y Tolerancia Cero)</h2>
+      <ol>
+        <li>
+          La Compañía aplica una política de tolerancia cero para los siguientes 
+          comportamientos para asegurar que todos los usuarios puedan utilizar 
+          el servicio en un ambiente seguro y saludable:
+          <ul class="sub-list">
+            <li>Discurso de odio, expresiones discriminatorias, blasfemias y lenguaje vulgar</li>
+            <li>Acoso, amenazas o intimidación a otros</li>
+            <li>Publicación de contenido sexual, violento o ilegal</li>
+            <li>Divulgación de información personal o invasión de privacidad</li>
+            <li>Spam, anuncios o publicaciones comerciales no autorizadas</li>
+            <li>Otro contenido contrario al orden público y la moral</li>
+          </ul>
+        </li>
+        <li>
+          Cuando tales comportamientos sean detectados, se pueden tomar medidas 
+          inmediatas incluyendo suspensión de cuenta, eliminación de contenido 
+          y restricciones de servicio. En casos severos, se impondrán prohibiciones 
+          permanentes del servicio.
+        </li>
+        <li>
+          La Compañía monitorea contenido inapropiado a través de sistemas automatizados 
+          y revisión de administradores, y revisa y toma acción sobre contenido 
+          reportado dentro de 24 horas como principio.
+        </li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Artículo 24 (Características de Protección del Usuario)</h2>
+      <ol>
+        <li>
+          El servicio proporciona las siguientes características para la seguridad del usuario:
+          <ul class="sub-list">
+            <li>Función de reporte de contenido inapropiado</li>
+            <li>Función de bloqueo de usuario</li>
+            <li>Eliminación inmediata de contenido propio</li>
+            <li>Sistema de filtrado automático de contenido</li>
+          </ul>
+        </li>
+        <li>
+          Los usuarios tienen la obligación de reportar inmediatamente contenido 
+          considerado inapropiado. Los reportes falsos pueden resultar en 
+          restricciones del servicio.
+        </li>
+        <li>
+          A través de la función de bloqueo, los usuarios pueden prevenir ver 
+          contenido de usuarios específicos, y los usuarios bloqueados no pueden 
+          enviar mensajes al usuario que los bloqueó.
+        </li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Artículo 25 (Restricciones de Edad y Protección de Menores)</h2>
+      <ol>
+        <li>
+          Este servicio solo está disponible para adultos de 18 años en adelante.
+        </li>
+        <li>
+          Los procedimientos de verificación de edad deben completarse durante 
+          el registro de membresía, y las cuentas serán eliminadas inmediatamente 
+          si se proporciona información falsa.
+        </li>
+        <li>
+          Si se confirma el uso por menores, la cuenta será suspendida inmediatamente 
+          y los datos relacionados serán eliminados.
+        </li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Artículo 26 (Reporte de Problemas y Soporte al Cliente)</h2>
+      <ol>
+        <li>
+          Los problemas que ocurran durante el uso del servicio o contenido 
+          inapropiado pueden ser reportados a través de los siguientes contactos:
+          <ul class="sub-list">
+            <li>Correo electrónico: support@danbilabs.com</li>
+            <li>Función de reporte dentro de la aplicación</li>
+          </ul>
+        </li>
+        <li>
+          Todos los reportes son revisados dentro de 24 horas de recibidos, 
+          y se toman las acciones necesarias.
+        </li>
+        <li>
+          Para problemas de seguridad urgentes, los usuarios pueden reportar 
+          inmediatamente a las autoridades relevantes.
+        </li>
+      </ol>
+    </div>
   </body>
   `,
-}
+};
